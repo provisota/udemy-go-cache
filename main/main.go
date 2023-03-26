@@ -1,8 +1,8 @@
 package main
 
 import (
+	"bitbucket.org/provisota/cache/cache"
 	"fmt"
-	"go-cache/cache"
 )
 
 func main() {
