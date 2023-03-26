@@ -1,8 +1,8 @@
 package main
 
 import (
-	"bitbucket.org/provisota/cache/cache"
 	"fmt"
+	"github.com/provisota/udemy-go-cache/cache"
 )
 
 func main() {
@@ -12,6 +12,5 @@ func main() {
 	fmt.Println(cache1.Get("userId"))
 
 	cache1.Delete("userId")
-
 	fmt.Println(cache1.Get("userId"))
 }
